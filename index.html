@@ -1,0 +1,31 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1> Formulário com método POST </h1>
+        <form action="/page.php" method="post">
+            Nome Completo <input type="text" maxlength="50" id="Nome Completo" name="Nome Completo"> 
+            <br><br>
+            Senha <input type="password" id="Senha" name="Senha"> 
+            <br><br>
+            Idade <input type="number" min="1" max="120" id="Idade" name="Idade"> 
+            <br><br>
+            E-mail <input type="email" id="E-mail" name="Email"> 
+            <br><br>
+            Data de Nascimento <input type="date" min="2000-01-01" max="2024-12-31" id="Data de Nascimento" name="Data de Nascimento"> 
+            <br><br>
+            Mensagem de Observação: <textarea rows="4" cols="40"> </textarea>
+            <br></br>
+            Area de Interesse:
+            <br></br>
+            <select>
+                <option id="Programação" value=Programação> Programaçãoo </option>
+                <option id="Design" value="Design"> Design </option>
+                <option id="Redes" value="Redes"> Redes </option>
+                <option id="Suporte" value="Redes"> Suporte </option>
+            </select>
+            <input type="submit" value="entrar">
+            <br><br>
+        </form>
+    </body>
+</html>
